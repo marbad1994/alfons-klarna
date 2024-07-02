@@ -1,0 +1,61 @@
+{
+    "name": "great-secret",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "bulma": "^0.9.1",
+        "dotenv": "^8.2.0",
+        "env-cmd": "^10.1.0",
+        "express": "^4.17.1",
+        "json-server": "^0.16.2",
+        "json-server-auth": "^2.0.2",
+        "jwt-decode": "^3.0.0",
+        "klarna-node": "^0.1.2",
+        "mongodb": "^3.6.5",
+        "nodejs-base64-converter": "^1.0.5",
+        "npm-run-all": "^4.1.5",
+        "ramda": "^0.27.1",
+        "react": "^16.13.1",
+        "react-device-detect": "^1.17.0",
+        "react-dom": "^16.13.1",
+        "react-https-redirect": "^1.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^4.0.3",
+        "react-social-icons": "^5.5.1",
+        "request-promise": "^4.2.6"
+    },
+    "scripts": {
+        "starts": "react-scripts start",
+        "backend": "./node_modules/.bin/json-server-auth ./backend/db.json --port 3001",
+        "frontend": "react-scripts start",
+        "start": "node backend/app.js",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

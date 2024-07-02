@@ -1,0 +1,175 @@
+body {
+    text-shadow: 2px 2px 5px #272A3Fb4;
+    margin: 0;
+    font-family: -moz-initial, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.home-bg {
+    background-image: none;
+    /* url("./images/bg1.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100vh; */
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+
+.product-title {
+    border-bottom: 1px solid #272727;
+}
+
+@font-face {
+    font-family: Alegreya-thin;
+    src: url(AlegreyaSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: Alegreya-light;
+    src: url(AlegreyaSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Alegreya-bold;
+    src: url(AlegreyaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Countryside-1;
+    src: url(Countryside-YdKj.ttf);
+}
+
+.start-logo {
+    text-shadow: 3px 3px 6px #272A3Fd3;
+    font-family: Countryside-1;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.end-logo {
+    text-shadow: 3px 3px 6px #272A3Fd3;
+    font-family: Countryside-1;
+    letter-spacing: 3px;
+    color: #510030;
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(cinzel.regular.ttf);
+}
+
+.title,
+.navbar {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.outer-klarna-box {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkout-button {
+    display: block;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 600px;
+}
+
+.product-modal {
+    width: 100% !important;
+    max-width: 1000px !important;
+    text-align: left !important;
+}
+@media screen and (min-width: 661px) and (max-width: 728px) {
+    .product-modal-box {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    .product-modal-box img {
+        margin-bottom: 15px;
+        width: 70%;
+        height: auto;
+        
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .product-modal-box {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    .product-modal-box img {
+        margin-bottom: 15px;
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 574px) {
+    .product-modal-box {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    .product-modal-box img {
+        margin-bottom: 15px;
+        width: 85%;
+        height: auto;
+        
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 660px) {
+    .product-modal-box {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    .product-modal-box img {
+        margin-bottom: 15px;
+        width: 70%;
+        height: auto;
+        
+    }
+}
+
+@media screen and (min-width: 729px) {
+    .product-modal-box {
+        display: flex;
+    }
+    .product-modal-box img {
+        margin-bottom: 15px;
+        width: 50%;
+        height: auto;
+        
+    }
+  }
